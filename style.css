@@ -19,6 +19,43 @@
     justify-content: space-between;
     align-items: center;
 }
+.hero-section
+{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.hero-text
+{
+    width: 400px;
+    height: auto;
+}
+h1
+{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+p
+{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+img
+{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+button
+{
+    color:#e5e7eb;
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
 h4
 {
     margin-left: 20px;
