@@ -1,17 +1,21 @@
 *
 {
-    background-color: #1F2937;
     font-family: 'Kanit', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .navbar
 {
+    background-color: #1F2937;
     color:white;
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: space-between;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .nav-links
 {
@@ -21,22 +25,25 @@
 }
 .hero-section
 {
+    background-color: #1F2937;
     display: flex;
     flex: 1;
     justify-content: space-evenly;
-    margin-top: 100px;
+    height: 74vh;
+    align-items: center;
+    padding-bottom: 4%;
+    padding-top: 3%;
 }
 .hero-text
 {
     width: 400px;
     height: auto;
-}
-h1
-{
     color: #f9faf8;
-    font-size: 48px;
-    font-weight:bolder;
+    font-size: 35px;
+    font-weight: bolder;
 }
+
+
 p
 {
     font-size: 18px;
